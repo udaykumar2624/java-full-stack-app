@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('checkout'){
             steps{
-                git 'https://github.com/siddudev/Java-Full-Stack-App.git'
+                git 'https://github.com/udaykumar2624/java-full-stack-app.git'
             }
         }
         stage('stop containers'){
